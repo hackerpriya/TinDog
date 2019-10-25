@@ -9,16 +9,20 @@ body {
 
 h1 {
     font-family: "Monsterrat-Black";
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-family: "Monsterrate-Bold";
+}
+
+p {
+    color: #8f8f8f;
 }
 
 .container-fluid {
     padding: 3% 15%;
-}
-
-.rotate {
-    transform: rotate(30deg);
 }
 
 .navbar {
@@ -42,4 +46,27 @@ h1 {
 
 .title-image {
     width: 60%;
+    transform: rotate(25deg);
+}
+
+i:hover {
+    background-color: pink;
+}
+
+#features {
+    padding: 5% 17%;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: pink;
+    margin-bottom: 5%;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
